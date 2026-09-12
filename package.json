@@ -1,0 +1,24 @@
+{
+  "name": "nodejslearning",
+  "version": "1.0.0",
+  "description": "A comprehensive, well-structured learning resource for mastering Node.js — from fundamentals to advanced concepts. Designed for developers who want to build production-ready applications with confidence.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khankadir193/NodejsLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/khankadir193/NodejsLearning/issues"
+  },
+  "homepage": "https://github.com/khankadir193/NodejsLearning#readme",
+  "dependencies": {
+    "lodash": "^4.18.1"
+  }
+}
