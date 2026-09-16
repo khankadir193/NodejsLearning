@@ -40,4 +40,4 @@ DB_USER=postgres*/
 console.log('argv :-',process.argv);
 console.log('CWD :-',process.cwd());
 console.log('exit :-',process.exit(0));
-console.log('pid :-',process.pid)
+console.log('pid :-',process.pid);
