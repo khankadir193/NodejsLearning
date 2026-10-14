@@ -39,3 +39,19 @@ const main = async () => {
 
 main();
 
+/*
+- In Node.js, callbacks, Promises, and async/await all solve the same basic problem: handling 
+asynchronous operations such as reading files, calling APIs, querying databases, or waiting for 
+timers.
+
+- The main difference is how you write and manage the asynchronous code.
+
+
+| Approach    | Syntax                | Readability             | Error handling |
+| ----------- | --------------------- | ----------------------- | -------------- |
+| Callback    | `callback(err, data)` | Harder for complex code | `if (err)`     |
+| Promise     | `.then().catch()`     | Better                  | `.catch()`     |
+| Async/Await | `await promise`       | Usually easiest         | `try/catch`    |
+
+
+*/

@@ -1,0 +1,25 @@
+1.
+console.log("Start");
+
+setTimeout(() => {
+  console.log("Timeout");
+}, 0);
+
+Promise.resolve().then(() => {
+  console.log("Promise");
+});
+
+process.nextTick(() => {
+  console.log("Next Tick");
+});
+
+console.log("End");
+
+2.
+console.log("A");
+
+setTimeout(() => console.log("B"), 0);
+
+Promise.resolve().then(() => console.log("C"));
+
+console.log("D");
